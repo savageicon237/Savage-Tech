@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Savage Tech</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <div class="logo-icon">ST</div>
+            <div class="logo-text">
+                <h2>SAVAGE <span>TECH</span></h2>
+                <p>Digital Innovation Hub</p>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-buttons">
+            <a href="contact.html" class="nav-cta">Get Quote <i class="fas fa-arrow-right"></i></a>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Our <span>Services</span></h1>
+        <p>Comprehensive digital solutions for your business</p>
+    </div>
+</section>
+
+<section class="services-full">
+    <div class="container">
+        <div class="services-full-grid">
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-code"></i></div>
+                <h2>Web Development</h2>
+                <p>Custom websites, e-commerce platforms, and web applications built with modern technologies. Fully responsive, SEO optimized, and designed for performance.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Custom Website Design</li>
+                    <li><i class="fas fa-check"></i> E-Commerce Development</li>
+                    <li><i class="fas fa-check"></i> CMS Integration (WordPress)</li>
+                    <li><i class="fas fa-check"></i> Responsive Mobile Design</li>
+                    <li><i class="fas fa-check"></i> Speed Optimization</li>
+                </ul>
+                <div class="service-price">Starting at $250</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-paint-brush"></i></div>
+                <h2>Branding</h2>
+                <p>Complete brand identity development that makes your business memorable and recognizable across all platforms.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Logo Design</li>
+                    <li><i class="fas fa-check"></i> Brand Guidelines</li>
+                    <li><i class="fas fa-check"></i> Color Strategy</li>
+                    <li><i class="fas fa-check"></i> Typography Selection</li>
+                    <li><i class="fas fa-check"></i> Brand Storytelling</li>
+                </ul>
+                <div class="service-price">Starting at $150</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-chart-line"></i></div>
+                <h2>Digital Marketing</h2>
+                <p>Data-driven marketing strategies that increase visibility, drive traffic, and convert leads into loyal customers.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> SEO Optimization</li>
+                    <li><i class="fas fa-check"></i> Social Media Management</li>
+                    <li><i class="fas fa-check"></i> Content Marketing</li>
+                    <li><i class="fas fa-check"></i> Email Campaigns</li>
+                    <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                </ul>
+                <div class="service-price">Starting at $200/mo</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-share-alt"></i></div>
+                <h2>Networking</h2>
+                <p>Strategic business networking solutions connecting you with the right partners, clients, and opportunities.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Business Networking Events</li>
+                    <li><i class="fas fa-check"></i> Partnership Building</li>
+                    <li><i class="fas fa-check"></i> B2B Connections</li>
+                    <li><i class="fas fa-check"></i> Community Engagement</li>
+                    <li><i class="fas fa-check"></i> Strategic Alliances</li>
+                </ul>
+                <div class="service-price">Custom Pricing</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-ad"></i></div>
+                <h2>Local Business Ads</h2>
+                <p>Targeted advertising campaigns that help local businesses reach customers in their area effectively.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Google Local Ads</li>
+                    <li><i class="fas fa-check"></i> Social Media Ads</li>
+                    <li><i class="fas fa-check"></i> Targeted Campaigns</li>
+                    <li><i class="fas fa-check"></i> Performance Tracking</li>
+                    <li><i class="fas fa-check"></i> ROI Optimization</li>
+                </ul>
+                <div class="service-price">Starting at $100/mo</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+            <div class="service-full-card">
+                <div class="service-icon-large"><i class="fas fa-headset"></i></div>
+                <h2>24/7 Support</h2>
+                <p>Round-the-clock technical support and maintenance to keep your digital assets running smoothly.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Technical Support</li>
+                    <li><i class="fas fa-check"></i> Website Maintenance</li>
+                    <li><i class="fas fa-check"></i> Security Updates</li>
+                    <li><i class="fas fa-check"></i> Backup Management</li>
+                    <li><i class="fas fa-check"></i> Emergency Fixes</li>
+                </ul>
+                <div class="service-price">Starting at $50/mo</div>
+                <a href="contact.html" class="btn-outline">Request Quote</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="process">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">How We Work</span>
+            <h2>Our <span>Process</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>Discovery</h3>
+                <p>We learn about your business, goals, and target audience.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>Strategy</h3>
+                <p>We develop a tailored plan to achieve your objectives.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>Creation</h3>
+                <p>We bring your vision to life with expert execution.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">04</div>
+                <h3>Launch & Grow</h3>
+                <p>We launch, monitor, and optimize for continuous growth.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <div class="logo-icon">ST</div>
+                    <div>
+                        <h3>SAVAGE TECH</h3>
+                        <p>Digital Innovation Hub</p>
+                    </div>
+                </div>
+                <p>Creating digital excellence through innovative web solutions.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <a href="services.html">Web Development</a>
+                <a href="services.html">Branding</a>
+                <a href="services.html">Digital Marketing</a>
+                <a href="services.html">Networking</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone"></i> +237 653 376 334</p>
+                <p><i class="fas fa-envelope"></i> savage@tech.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bamenda, Cameroon</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Savage Tech | Founder: Thang Basil Ghang (Savage Icon)</p>
+        </div>
+    </div>
+</footer>
+
+<a href="https://wa.me/23765337634" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
