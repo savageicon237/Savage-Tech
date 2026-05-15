@@ -3,171 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - George's Corner</title>
+    <title>About Us | Savage Tech</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- Add to ALL pages - Replace with your actual info -->
+
+<!-- Primary Meta Tags -->
+<title>Savage Tech | Professional Web Designer in Bamenda, Cameroon</title>
+<meta name="title" content="Savage Tech | Professional Web Designer in Bamenda, Cameroon">
+<meta name="description" content="Need a professional website? Savage Tech offers affordable web design, development, and SEO services in Bamenda, Cameroon. Free consultation. Call +237 653 376 334">
+<meta name="keywords" content="web designer Bamenda, website development Cameroon, affordable web design, SEO services Cameroon, Savage Tech">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://savagetech.com/">
+<meta property="og:title" content="Savage Tech | Professional Web Designer in Bamenda">
+<meta property="og:description" content="Professional web design and development services in Bamenda, Cameroon">
+<meta property="og:image" content="https://savagetech.com/images/savage-og-image.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://savagetech.com/">
+<meta property="twitter:title" content="Savage Tech | Web Designer in Bamenda">
+<meta property="twitter:description" content="Professional web design services in Cameroon">
+<meta property="twitter:image" content="https://savagetech.com/images/savage-og-image.jpg">
+
+<!-- Geo Tags (Important for Cameroon) -->
+<meta name="geo.region" content="CM-NW">
+<meta name="geo.placename" content="Bamenda">
+<meta name="geo.position" content="5.9612305;10.1249825">
+<meta name="ICBM" content="5.9612305, 10.1249825">
+
+<!-- Author -->
+<meta name="author" content="Thang Basil Ghang (Savage Icon)">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow">
 </head>
 <body>
 
 <nav class="navbar">
     <div class="nav-container">
         <div class="logo">
-            <h1>GEORGE'S <span>CORNER</span></h1>
-            <p>Upstation End of Tar GRA, Bamenda</p>
+            <div class="logo-icon">ST</div>
+            <div class="logo-text">
+                <h2>SAVAGE <span>TECH</span></h2>
+                <p>Digital Innovation Hub</p>
+            </div>
         </div>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html" class="active">About</a>
-            <a href="menu.html">Menu</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="reviews.html">Reviews</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
         </div>
-        <div class="mobile-menu" onclick="toggleMobileMenu()">
-            <i class="fas fa-bars"></i>
+        <div class="nav-buttons">
+            <a href="contact.html" class="nav-cta">Get Quote <i class="fas fa-arrow-right"></i></a>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </div>
     <div class="mobile-nav" id="mobileNav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="menu.html">Menu</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="reviews.html">Reviews</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </div>
 </nav>
 
 <section class="page-header">
-    <h1>About <span>George's Corner</span></h1>
-    <p>Your favorite spot in Bamenda since 2019</p>
+    <div class="container">
+        <h1>About <span>Savage Tech</span></h1>
+        <p>Building digital excellence since 2020</p>
+    </div>
 </section>
 
-<section class="about-main">
+<section class="about-story">
     <div class="container">
-        <div class="about-grid">
-            <div class="about-text">
-                <h2>Welcome to George's Corner</h2>
-                <p>Located at Upstation End of Tar GRA, George's Corner offers a breathtaking city view, delicious food, and an unforgettable atmosphere. Whether you're here for a romantic dinner, family gathering, or solo relaxation, we've got you covered.</p>
-                <p>Our mission is to provide the best dining and entertainment experience in Bamenda with exceptional service and quality food.</p>
+        <div class="story-grid">
+            <div class="story-content">
+                <span class="subtitle">Our Story</span>
+                <h2>From Vision to <span>Reality</span></h2>
+                <p>Savage Tech was born from a passion for technology and a desire to help businesses thrive in the digital age. Founded by Thang Basil Ghang (AKA Savage Icon), we've grown into a full-service digital agency serving clients across Cameroon and beyond.</p>
+                <p>We believe that every business, whether small or large, deserves a powerful online presence. That's why we combine cutting-edge technology with creative design to deliver solutions that drive real results.</p>
+                <div class="mission-vision">
+                    <div class="mission">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Our Mission</h3>
+                        <p>To empower businesses with innovative digital solutions that drive growth and success.</p>
+                    </div>
+                    <div class="vision">
+                        <i class="fas fa-eye"></i>
+                        <h3>Our Vision</h3>
+                        <p>To become Africa's leading digital innovation hub, transforming how businesses connect with customers.</p>
+                    </div>
+                </div>
             </div>
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600" alt="George's Corner">
+            <div class="story-image">
+                <div class="image-wrapper">
+                    <img src="https://placehold.co/600x500/1a1a2e/6366f1?text=Savage+Tech" alt="Savage Tech Team">
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="accessibility-section">
+<section class="founder-section">
     <div class="container">
-        <h2 class="section-title">Accessibility & <span>Services</span></h2>
-        <div class="accessibility-grid">
-            <div class="access-card">
-                <i class="fas fa-wheelchair"></i>
-                <h3>Wheelchair Accessible</h3>
-                <p>Entrance, Seating, Toilet & Parking</p>
+        <div class="founder-grid">
+            <div class="founder-image">
+                <div class="founder-img-wrapper">
+                    <img src="https://placehold.co/400x500/1a1a2e/6366f1?text=Savage+Icon" alt="Thang Basil Ghang - Savage Icon">
+                </div>
             </div>
-            <div class="access-card">
-                <i class="fas fa-music"></i>
-                <h3>Live Music</h3>
-                <p>Live performances every weekend</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-wine-bottle"></i>
-                <h3>Great Beer & Wine</h3>
-                <p>Extensive selection of drinks</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-car"></i>
-                <h3>Free Parking</h3>
-                <p>Parking lot & street parking available</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-mobile-alt"></i>
-                <h3>NFC Payments</h3>
-                <p>Mobile payments accepted</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-child"></i>
-                <h3>Family Friendly</h3>
-                <p>Good for kids of all ages</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-utensils"></i>
-                <h3>Service Options</h3>
-                <p>Dine-in • Takeaway • Delivery • Drive-through</p>
-            </div>
-            <div class="access-card">
-                <i class="fas fa-calendar-check"></i>
-                <h3>Reservations</h3>
-                <p>Recommended to book in advance</p>
+            <div class="founder-content">
+                <span class="subtitle">Meet The Founder</span>
+                <h2>Thang Basil Ghang <span>AKA Savage Icon</span></h2>
+                <p>Visionary entrepreneur, web developer, and digital strategist with a passion for helping businesses grow online. With years of experience in web development, branding, and digital marketing, Savage Icon leads the team at Savage Tech to deliver exceptional results for clients.</p>
+                <div class="founder-quote">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Technology is the bridge between dreams and reality. At Savage Tech, we build that bridge for businesses ready to dominate the digital landscape."</p>
+                    <span>- Thang Basil Ghang (Savage Icon)</span>
+                </div>
+                <div class="founder-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="highlights-section">
+<section class="values">
     <div class="container">
-        <h2 class="section-title">What Makes <span>Us Special</span></h2>
-        <div class="highlights-grid">
-            <div class="highlight">
+        <div class="section-header">
+            <span class="subtitle">Our Core Values</span>
+            <h2>What Drives <span>Us</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="values-grid">
+            <div class="value-card">
                 <i class="fas fa-star"></i>
-                <h3>Great Beer Selection</h3>
+                <h3>Excellence</h3>
+                <p>We strive for perfection in everything we deliver.</p>
             </div>
-            <div class="highlight">
-                <i class="fas fa-star"></i>
-                <h3>Great Wine List</h3>
+            <div class="value-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Integrity</h3>
+                <p>Honest communication and transparent processes.</p>
             </div>
-            <div class="highlight">
-                <i class="fas fa-star"></i>
-                <h3>Live Performances</h3>
+            <div class="value-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovation</h3>
+                <p>Staying ahead with cutting-edge solutions.</p>
             </div>
-            <div class="highlight">
-                <i class="fas fa-star"></i>
-                <h3>Cozy Atmosphere</h3>
-            </div>
-            <div class="highlight">
-                <i class="fas fa-star"></i>
-                <h3>Trendy & Upmarket</h3>
-            </div>
-            <div class="highlight">
-                <i class="fas fa-star"></i>
-                <h3>Romantic Setting</h3>
+            <div class="value-card">
+                <i class="fas fa-users"></i>
+                <h3>Collaboration</h3>
+                <p>Working together for client success.</p>
             </div>
         </div>
     </div>
 </section>
 
 <footer>
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>GEORGE'S CORNER</h3>
-            <p>Upstation End of Tar GRA<br>Bamenda, Cameroon</p>
-            <p>📞 6 53 81 07 16</p>
-        </div>
-        <div class="footer-section">
-            <h4>Quick Links</h4>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="menu.html">Menu</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="reviews.html">Reviews</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="footer-section">
-            <h4>Follow Us</h4>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+    <!-- Same footer as index.html -->
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <div class="logo-icon">ST</div>
+                    <div>
+                        <h3>SAVAGE TECH</h3>
+                        <p>Digital Innovation Hub</p>
+                    </div>
+                </div>
+                <p>Creating digital excellence through innovative web solutions, branding, and strategic networking.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id-100093600316060"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <a href="services.html">Web Development</a>
+                <a href="services.html">Branding</a>
+                <a href="services.html">Digital Marketing</a>
+                <a href="services.html">Networking</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone"></i> +237 653 376 334</p>
+                <p><i class="fas fa-envelope"></i> savage@tech.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bamenda, Cameroon</p>
             </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 George's Corner - All Rights Reserved</p>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Savage Tech | Founder: Thang Basil Ghang (Savage Icon)</p>
+        </div>
     </div>
 </footer>
+
+<a href="https://wa.me/23765337634" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
 <script src="script.js"></script>
 </body>

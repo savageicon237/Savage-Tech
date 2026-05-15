@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+Sitemap: https://savagetech.com/sitemap.xml
+
+# Crawl delay for slow servers
+Crawl-delay: 5
+
+# Tell Google about your mobile site
+User-agent: Googlebot
+Allow: /
