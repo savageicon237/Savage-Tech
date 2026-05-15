@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George's Corner - Best Lounge Bar in Bamenda</title>
+    <title>Gallery - George's Corner</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -17,10 +17,10 @@
             <p>Upstation End of Tar GRA, Bamenda</p>
         </div>
         <div class="nav-links">
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="menu.html">Menu</a>
-            <a href="gallery.html">Gallery</a>
+            <a href="gallery.html" class="active">Gallery</a>
             <a href="reviews.html">Reviews</a>
             <a href="contact.html">Contact</a>
         </div>
@@ -38,63 +38,31 @@
     </div>
 </nav>
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>Welcome to <span>George's Corner</span></h1>
-        <p>Best Lounge Bar & Restaurant in Bamenda | Great Beer Selection • Live Music • Cozy Atmosphere</p>
-        <div class="hero-buttons">
-            <a href="menu.html" class="btn">View Menu</a>
-            <a href="contact.html" class="btn btn-outline">Book a Table</a>
+<section class="page-header">
+    <h1>Photo & Video <span>Gallery</span></h1>
+    <p>Moments captured at George's Corner</p>
+</section>
+
+<section class="gallery-section">
+    <div class="container">
+        <div class="gallery-grid" id="galleryGrid"></div>
+        
+        <div class="upload-area">
+            <h3><i class="fas fa-upload"></i> Share Your Moments</h3>
+            <p>Upload photos or videos from your visit</p>
+            <input type="file" id="uploadFile" accept="image/*,video/*">
+            <input type="text" id="uploadCaption" placeholder="Caption (optional)">
+            <button class="btn" onclick="uploadMedia()">Upload to Gallery</button>
+            <p class="upload-note">Your uploads are saved locally on this device</p>
         </div>
     </div>
 </section>
 
-<section class="features-section">
-    <div class="container">
-        <h2 class="section-title">Why <span>Choose Us</span></h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-music"></i>
-                <h3>Live Music</h3>
-                <p>Enjoy live performances every weekend</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-wine-glass-alt"></i>
-                <h3>Great Wine List</h3>
-                <p>Premium selection of local & international wines</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-utensils"></i>
-                <h3>Delicious Food</h3>
-                <p>Freshly prepared meals by expert chefs</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-cocktail"></i>
-                <h3>Signature Cocktails</h3>
-                <p>Handcrafted cocktails by professional mixologists</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <div class="stat">
-                <h3>4.0</h3>
-                <p>⭐ Customer Rating</p>
-            </div>
-            <div class="stat">
-                <h3>30+</h3>
-                <p>Happy Reviews</p>
-            </div>
-            <div class="stat">
-                <h3>2019</h3>
-                <p>Year Established</p>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- Modal for viewing media -->
+<div id="mediaModal" class="modal">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <div id="modalContent"></div>
+</div>
 
 <footer>
     <div class="footer-content">
